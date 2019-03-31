@@ -1,6 +1,9 @@
 # Meta-SR
-    参考图片 
-    ![image](https://github.com/wxywhu/Meta-SR/blob/master/Figure1.png)
+##参考图片
+![image](https://github.com/wxywhu/Meta-SR/blob/master/Figure1.png)
+
+##个人理解
+
     核心：对于重建图（SR）中的每一点像素值 认为是由对应低分辨率特征图(FLR)上的相应像素位置的特征与一组卷积滤波器权重共同决定
     
     Location Projection: 寻找对应的决定像素点, SR中（i,j）除以缩放因子r,floor取整, 得到FLR中的位置（i',j'）
